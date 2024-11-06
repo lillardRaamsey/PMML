@@ -1,0 +1,151 @@
+
+body {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background-image: url("../img/fondodf.png");
+  margin: 0;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+.item img {
+  width: 320px;
+  height: 180px;
+  margin-right: 20px; 
+}
+
+.item div {
+  text-align: left;
+}
+
+.item-1 {
+  display: flex;
+  align-items: center;
+  background-image: url("../img/top1.png");
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+
+
+.item-1 img {
+  width: 320px;
+  height: 180px;
+  margin-right: 20px; 
+}
+
+.item-1 div {
+  text-align: left;
+}
+
+
+.item-2 {
+  display: flex;
+  align-items: center;
+  background-image: url("../img/top2.png");
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+
+
+.item-2 img {
+  width: 320px;
+  height: 180px;
+  margin-right: 20px; 
+}
+
+.item-2 div {
+  text-align: left;
+}
+
+
+.item-3 {
+  display: flex;
+  align-items: center;
+  background-image: url("../img/top3.jpg");
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+
+
+.item-3 img {
+  width: 320px;
+  height: 180px;
+  margin-right: 20px; 
+}
+
+.item-3 div {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .item {
+      flex-direction: column;
+  }
+
+  .item img {
+      margin-right: 0;
+      margin-bottom: 15px;
+  }
+}
+
+
