@@ -131,31 +131,35 @@ h1 {
   text-align: left;
 }
 
+
 @media (max-width: 768px) {
   .item, .item-1, .item-2, .item-3 {
       flex-direction: column;
   }
 
   .item img {
-      margin-right: 0;
-      margin-bottom: 15px;
+    margin: 0;
+    margin-bottom: 15px;
   }
 
   .item-1 img {
-    margin-right: 0;
+    margin: 0;
     margin-bottom: 15px;
   }
 
   .item-2 img {
-    margin-right: 0;
+    margin: 0;
     margin-bottom: 15px;
   }
 
   .item-3 img {
-    margin-right: 0;
+    margin: 0;
     margin-bottom: 15px;
   }
 }
+
+
+
 
 
 
