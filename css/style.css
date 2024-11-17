@@ -131,6 +131,12 @@ h1 {
   text-align: left;
 }
 
+.cs img {
+  width: 320px;
+  height: 180px;
+  border:2px solid white;
+}
+
 
 @media (max-width: 768px) {
   .item, .item-1, .item-2, .item-3 {
