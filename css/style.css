@@ -31,6 +31,10 @@ h1 {
   font-size: 45px;
 }
 
+.ins {
+  text-decoration: underline;
+}
+
 .item {
   display: flex;
   background-color: #ffffff;
